@@ -22,7 +22,6 @@ public class EmployeePayrollFileIOService {
         }
     }
 
-
     public long countEntries() {
         long entries = 0;
         try {
