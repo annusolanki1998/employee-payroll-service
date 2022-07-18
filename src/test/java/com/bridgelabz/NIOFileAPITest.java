@@ -44,5 +44,7 @@ public class NIOFileAPITest {
         Files.newDirectoryStream(playPath).forEach(System.out::println);
         Files.newDirectoryStream(playPath, path -> path.toFile().isFile() && path.toString().startsWith("temp")).forEach(System.out::println);
     }
+
+
 }
 

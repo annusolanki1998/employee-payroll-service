@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f93b2303-9e6a-4b3e-994d-0800d83c65e5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/EmployeePayrollData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/EmployeePayrollData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/EmployeePayrollService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/EmployeePayrollService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/NIOFileAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/NIOFileAPITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +45,8 @@
       <recent name="com.bridgelabz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NIOFileAPITest.givenPathWhenCheckedThenConfirm">
-    <configuration name="EmployeePayrollService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EmployeePayrollServiceTest.given3EmployeeWhenWrittenToFileShouldMatchEmployeeEntries">
+    <configuration name="com.bridgelabz.EmployeePayrollService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.EmployeePayrollService" />
       <module name="employee-payroll-service" />
       <extension name="coverage">
@@ -53,6 +55,38 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeePayrollServiceTest.given3EmployeeWhenWrittenToFileShouldMatchEmployeeEntries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee-payroll-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.EmployeePayrollServiceTest" />
+      <option name="METHOD_NAME" value="given3EmployeeWhenWrittenToFileShouldMatchEmployeeEntries" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NIOFileAPITest.givenADirectoryWhenWatchedListAllTheActivities" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee-payroll-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.NIOFileAPITest" />
+      <option name="METHOD_NAME" value="givenADirectoryWhenWatchedListAllTheActivities" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,8 +109,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmployeePayrollServiceTest.given3EmployeeWhenWrittenToFileShouldMatchEmployeeEntries" />
+        <item itemvalue="JUnit.NIOFileAPITest.givenADirectoryWhenWatchedListAllTheActivities" />
         <item itemvalue="JUnit.NIOFileAPITest.givenPathWhenCheckedThenConfirm" />
-        <item itemvalue="Application.EmployeePayrollService" />
+        <item itemvalue="Application.com.bridgelabz.EmployeePayrollService" />
       </list>
     </recent_temporary>
   </component>
